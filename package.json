@@ -3,19 +3,7 @@
   "version": "1.0.0",
   "description": "App Musify with nodejs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-
-    "postinstall": "run-p install:api install:client",
-    "install:api": "cd api && npm install",
-    "install:client": "cd client && npm install",
-
-    "start": "run-p start:api start:client",
-    "start:api": "npm run start --prefix api",
-    "start:client": "npm run start --prefix client",
-    
-    "build": "run-p build:api build:client",
-    "build:api": "cd api && npm run build",
-    "build:client": "cd client && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "npm-run-all": "^4.0.2"
